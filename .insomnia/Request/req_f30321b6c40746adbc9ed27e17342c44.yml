@@ -1,0 +1,23 @@
+_id: req_f30321b6c40746adbc9ed27e17342c44
+type: Request
+parentId: fld_998d3e7206684d8387965e750152ed92
+modified: 1689257029326
+created: 1685641684676
+url: "{{ _.BASE_URL }}/logout"
+name: LOGOUT A USER
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: MTA5.Sj1O3-eNZjwpgMhutVV7fh_jR70dFzKkHU3xfpcMt3LNAHjjKo30_Pfu4GDg
+metaSortKey: -1685641684676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

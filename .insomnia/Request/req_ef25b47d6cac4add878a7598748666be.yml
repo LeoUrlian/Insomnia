@@ -1,0 +1,32 @@
+_id: req_ef25b47d6cac4add878a7598748666be
+type: Request
+parentId: fld_998d3e7206684d8387965e750152ed92
+modified: 1689691154370
+created: 1684778666907
+url: "{{ _.BASE_URL }}/user/13"
+name: UPDATE A USER
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {	
+    	"name": "Leonardo Urlian",
+    	"username": "lurlian",
+    	"role": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: MzAz.xhoaoSv--CzIYIPC-7MiOrzDb9Sum-VsxzlUEXx_OMSVPBvBJk8vqKoRX9ep
+metaSortKey: -1684778666907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

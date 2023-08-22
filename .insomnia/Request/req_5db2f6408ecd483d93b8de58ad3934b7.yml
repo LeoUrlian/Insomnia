@@ -1,0 +1,32 @@
+_id: req_5db2f6408ecd483d93b8de58ad3934b7
+type: Request
+parentId: fld_e7d5db96d1bb4ca19ac8e2e419a65919
+modified: 1689779335444
+created: 1684434520662
+url: "{{ _.BASE_URL }}/servers"
+name: CREATE A SERVER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "teste de zabbix desativado",
+    	"url": "https://testeauthserver.beonup.com.br",
+    	"status": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: Nw.cd6b1RdIjWey1klO9JWZs9rBhMDytSHc749O1Auj9gLQ8aCUbyQDeLT471sz
+metaSortKey: -1684434520662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

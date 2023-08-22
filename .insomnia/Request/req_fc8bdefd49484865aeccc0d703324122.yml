@@ -1,0 +1,23 @@
+_id: req_fc8bdefd49484865aeccc0d703324122
+type: Request
+parentId: fld_7d02a53793fc48b28a7174c48fe79a3f
+modified: 1690306120617
+created: 1685736062474
+url: "{{ _.BASE_URL }}/relatorios/disponibilidade/group"
+name: RELATORIO DISPONIBILIDADE GRUPO
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: MTE5.lcrUMi_OL6SxQLTPlYr6edWk2CMQ_-ghG7-JBvZ1sbY_BL3vh_6IES0yF_MA
+metaSortKey: -1685736062474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

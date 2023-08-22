@@ -1,0 +1,16 @@
+_id: env_acc79bb27549fb05b198af10e117d379abb7c71b
+type: Environment
+parentId: wrk_1f735a40273f47d5a02485bae3d315d5
+modified: 1688758420273
+created: 1684420155401
+name: Base Environment
+data:
+  BASE_URL: http://127.0.0.1:3333/api
+  URL_ADONISJS: http://127.0.0.1:3333
+dataPropertyOrder:
+  "&":
+    - BASE_URL
+    - URL_ADONISJS
+color: null
+isPrivate: false
+metaSortKey: 1684420155401

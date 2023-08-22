@@ -1,0 +1,23 @@
+_id: req_ade040a1c59a45ff81cebe56d6fcc63f
+type: Request
+parentId: fld_998d3e7206684d8387965e750152ed92
+modified: 1689614720648
+created: 1689606516206
+url: "{{ _.BASE_URL }}/users-role"
+name: GET ROLE
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: MjY0.bDE0Xv4TwzmdL6OwIWhz5IwvtQrxihl05U8Vm7Xh3WZeqwo5iFXGGTH6HR38
+metaSortKey: -1689606516206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

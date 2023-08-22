@@ -1,0 +1,34 @@
+_id: req_dea95bf775624733baad28ed33c681d0
+type: Request
+parentId: wrk_1f735a40273f47d5a02485bae3d315d5
+modified: 1692710034876
+created: 1692709786417
+url: https://monitoramento.bioritmo.com.br/api_jsonrpc.php
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"method": "hostgroup.get",
+    	"id": 16927094180,
+    	"auth": "4e08ff7294d722fb55f1ad74459f8576",
+    	"params": {
+    		"output": "extend"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684177595417.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

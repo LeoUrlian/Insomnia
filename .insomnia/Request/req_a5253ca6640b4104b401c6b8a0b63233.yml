@@ -1,0 +1,21 @@
+_id: req_a5253ca6640b4104b401c6b8a0b63233
+type: Request
+parentId: fld_e7d5db96d1bb4ca19ac8e2e419a65919
+modified: 1684439503287
+created: 1684439468596
+url: "{{ _.BASE_URL }}/servers-login"
+name: GET ALL SERVERS IN LOGIN
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1684439468596
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

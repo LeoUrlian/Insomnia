@@ -1,0 +1,23 @@
+_id: req_aad01ea5543b4f639d7b86cc30635784
+type: Request
+parentId: fld_2b9f9ee594404018b227d66e47de93a5
+modified: 1690479916496
+created: 1685643979851
+url: "{{ _.BASE_URL }}/relatorio/disponibilidade/server"
+name: RELATORIO DISPONIBILIDADE SERVERS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: MTM3.t4LrkaUTw0EVLkBc1HXisTY4LU9uAYtu5pu-H8E8EGAS_TcqGCEtCJs2fCR-
+metaSortKey: -1685643979851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_24ee983356884901842e343668cf09b6
+type: Request
+parentId: fld_2b9f9ee594404018b227d66e47de93a5
+modified: 1690483358528
+created: 1685992263647
+url: "{{ _.BASE_URL }}/relatorio/disponibilidade/server"
+name: RELATORIO DISPONIBILIDADE SERVERS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"inicio": "26/07/2023, 11:21:11",
+    	"fim": "27/07/2023, 11:21:11",
+    	"hosts": [
+    		10199,
+    		10512
+    	],
+    	"groups": [
+    		10,
+    		193
+    	],
+    	"tags": 0,
+    	"value": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: MTM3.t4LrkaUTw0EVLkBc1HXisTY4LU9uAYtu5pu-H8E8EGAS_TcqGCEtCJs2fCR-
+metaSortKey: -1685992263647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

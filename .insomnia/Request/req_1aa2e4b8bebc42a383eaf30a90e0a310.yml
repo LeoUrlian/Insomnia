@@ -1,0 +1,32 @@
+_id: req_1aa2e4b8bebc42a383eaf30a90e0a310
+type: Request
+parentId: fld_7d02a53793fc48b28a7174c48fe79a3f
+modified: 1690381383024
+created: 1685737251952
+url: "{{ _.BASE_URL }}/relatorios/disponibilidade/group/host"
+name: RELATORIO DISPONIBILIDADE HOST BY GROUP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"groupId": [
+    		370
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: MTI3.5t61YFrCo6UdauCocVZmHSd9TiyMy8RmdID6v1x23FDO64ctTwTqUGsuLYap
+metaSortKey: -1685737251952
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_21ddb52eeb2244cc9b599f40651aebb0
+type: Request
+parentId: wrk_1f735a40273f47d5a02485bae3d315d5
+modified: 1692709694116
+created: 1684782305432
+url: https://monitoramento.bioritmo.com.br/api_jsonrpc.php
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"method": "boureport.get",
+    	"id": 16927094180,
+    	"auth": "4e08ff7294d722fb55f1ad74459f8576",
+    	"params": [
+    		{
+    			"inicio": "1-8-2023 09:57",
+    			"fim": "4-8-2023 09:57",
+    			"hosts": [
+    				13124,
+    				13125
+    			],
+    			"groups": [
+    				43
+    			],
+    			"tags": 0,
+    			"value": 0
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684434519385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

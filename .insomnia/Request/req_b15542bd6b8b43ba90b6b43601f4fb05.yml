@@ -1,0 +1,48 @@
+_id: req_b15542bd6b8b43ba90b6b43601f4fb05
+type: Request
+parentId: fld_cf0f03a4ea9440d1b5cf941c116f8de9
+modified: 1690811214653
+created: 1686320394963
+url: "{{ _.BASE_URL }}/relatorios/disponibilidade/groups/schedule"
+name: SCHEDULING REPORTS GROUPS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"inicio": "1-4-2023 16:16",
+    	"fim": "1-6-2023 16:16",
+    	"hosts": [
+    		10199,
+    		10512
+    	],
+    	"groups": [
+    		10,
+    		193
+    	],
+    	"tags": 0,
+    	"value": 0,
+    	"clientEmail": "lurlian@beonup.com.br",
+    	"taskName": "Teste de Agendamento",
+    	"recurrence": 4,
+    	"weekDay": 1,
+    	"month": 4,
+    	"monthDay": 15,
+    	"schedulerDate": "19-6-2023 20:22"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: Mg.Bv4nf7ZLnqQ_113wEbXP6OHS_TsQSAT7D5OLg6x8iqjQ4UfF2pOFfQDJ5arc
+metaSortKey: -1686320394963
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

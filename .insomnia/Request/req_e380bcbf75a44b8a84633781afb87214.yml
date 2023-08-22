@@ -1,0 +1,33 @@
+_id: req_e380bcbf75a44b8a84633781afb87214
+type: Request
+parentId: fld_2b9f9ee594404018b227d66e47de93a5
+modified: 1690481886646
+created: 1685717750398
+url: "{{ _.BASE_URL }}/relatorio/disponibilidade/server/group"
+name: RELATORIO DISPONIBILIDADE HOST BY SERVER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"serverId": [
+    		10,
+    		193
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: MTM3.t4LrkaUTw0EVLkBc1HXisTY4LU9uAYtu5pu-H8E8EGAS_TcqGCEtCJs2fCR-
+metaSortKey: -1685717750398
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

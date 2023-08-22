@@ -1,0 +1,23 @@
+_id: req_1961ab70366343228182dab36c55e2c9
+type: Request
+parentId: fld_e7d5db96d1bb4ca19ac8e2e419a65919
+modified: 1689710015610
+created: 1689709977857
+url: "{{ _.BASE_URL }}/server-users"
+name: GET USERS IN SERVERS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: MzI5.sXqHbABEXRNMVMq0yR3VEJZXqqXxEwP_ycmWRhpYDNVubSNTgqNiw1U-M78M
+metaSortKey: -1689709977857
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_22a4910d91894249a9ef7c7d07001189
+type: Request
+parentId: fld_e7d5db96d1bb4ca19ac8e2e419a65919
+modified: 1689772337990
+created: 1689606848431
+url: "{{ _.BASE_URL }}/server/1"
+name: GET SERVER BY ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: Nw.cd6b1RdIjWey1klO9JWZs9rBhMDytSHc749O1Auj9gLQ8aCUbyQDeLT471sz
+metaSortKey: -1689606848431
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_7cc86cc6fd104ee99807341f51f51182
+type: Request
+parentId: fld_e7d5db96d1bb4ca19ac8e2e419a65919
+modified: 1689874326954
+created: 1684442186354
+url: "{{ _.BASE_URL }}/servers/2"
+name: UPDATE A SERVER
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "teste atualizado 02",
+    	"url": "https://testeatualizado02@zabbix.com",
+    	"status": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: NDM.AwyzzvmRgRgFck_qknrWcANhhaMFAwBql3f3QStM3gaIlHkfLA-2Ryg38_vS
+metaSortKey: -1684442186354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
